@@ -1,0 +1,142 @@
+#################################
+# GLOBAL GITIGNORE PARA MONOREPO (.NET + Java + Web + Mobile)
+#################################
+
+# ======================
+# Geral
+# ======================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.lock
+*.zip
+*.tar.gz
+.DS_Store
+Thumbs.db
+.env
+.env.*
+
+# ======================
+# IDEs e editores
+# ======================
+.vscode/
+.idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.iml
+*.DotSettings.user
+
+# ======================
+# .NET / C#
+# ======================
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.cache
+*.csproj.user
+*.dbmdl
+*.psess
+*.vsp
+*.vspx
+*.coverage
+*.coveragexml
+TestResults/
+publish/
+artifacts/
+project.lock.json
+project.fragment.lock.json
+
+# ======================
+# NuGet
+# ======================
+*.nupkg
+*.snupkg
+.nuget/
+
+# ======================
+# Java (Maven, Gradle)
+# ======================
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+**/build/
+
+# Common
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+
+# Lombok
+*.lombok.config
+
+# ======================
+# Node.js / Frontend
+# ======================
+node_modules/
+dist/
+build/
+.cache/
+.npm/
+.yarn/
+.pnp/
+.next/
+out/
+
+# ======================
+# Mobile (React Native / Expo / Flutter)
+# ======================
+.expo/
+.expo-shared/
+android/.gradle/
+android/.idea/
+ios/Pods/
+ios/DerivedData/
+*.keystore
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+
+# ======================
+# Coverage e testes
+# ======================
+coverage/
+nyc_output/
+lcov-report/
+test-results/
+
+# ======================
+# Outros
+# ======================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
